@@ -1,0 +1,138 @@
+body {
+    background-color: #ff5c5b;
+}
+
+header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+/* user-interface */
+
+#user-interface {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 17px;
+    border: 3px solid #ff5c5b;
+    width: 30%;
+    background: #f1f1f1;
+}
+
+input:focus {
+    outline: none;
+}
+
+select {
+    padding: 10px;
+    font-size: 17px;
+    border: 3px solid #ff5c5b;
+    min-width: 12%;
+    background: #f1f1f1;
+}
+
+#submit-button {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 17px;
+    border: 3px solid #ff5c5b;
+    min-width: 12%;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: white;
+    color: black;
+}
+
+#submit-button:focus {
+    outline: none;
+}
+
+/* results section */
+
+#results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+#div-container {
+    width: 300px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#div-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 3px;
+}
+
+#text:hover {
+    color: black;
+}
+
+#text:focus {
+    outline: none;
+}
+
+/* more button */
+
+#moar {
+    display: flex;
+    justify-content: center;
+}
+
+#more-button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    padding: 6px;
+    border: 3px solid #ff5c5b;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    visibility: hidden;
+    z-index: 999;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#more-button:hover {
+    background-color: white;
+    color: black;
+}
+
+#more-button:focus {
+    outline: none;
+}
+
+#more-button.on {
+    visibility: visible;
+}

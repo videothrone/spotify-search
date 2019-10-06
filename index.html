@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+            rel="stylesheet"
+        />
+        <title>Spotify Search-O-Rama</title>
+    </head>
+    <body>
+        <header>Spotify Search-O-Rama</header>
+
+        <!-- user interface-->
+        <section id="user-interface">
+            <input type="search" name="user-input" placeholder="Search..." />
+
+            <select>
+                <option id="artist">artist</option>
+                <option id="album">album</option>
+            </select>
+
+            <button id="submit-button">submit</button>
+        </section>
+
+        <!-- results -->
+        <div id="results-container"></div>
+
+        <!-- more button -->
+        <section id="moar">
+            <button id="more-button">M O A R</button>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="script.js" charset="utf-8"></script>
+    </body>
+</html>
