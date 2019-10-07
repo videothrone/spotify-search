@@ -6,7 +6,7 @@
 
 ## Siteflow
 
-![Social Network](siteflow.gif)
+![Spotify Search-O-Rama](siteflow.gif)
 
 ## Tech
 
