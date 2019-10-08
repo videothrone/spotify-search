@@ -6,7 +6,7 @@
 
 ## Siteflow
 
-![Spotify Search-O-Rama](siteflow.gif) (https://videothrone.github.io/spotify-search/)
+[![Spotify Search-O-Rama](siteflow.gif)](https://videothrone.github.io/spotify-search/)
 
 ## Demo
 
